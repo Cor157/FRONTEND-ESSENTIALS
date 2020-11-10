@@ -1,0 +1,48 @@
+body{
+	background-color:white;
+	font-size:5px;
+}
+.ghana{
+  width:90em;
+  height:20em;
+  background-color:#ce1126;
+  box-shadow:0em 20em 0em 0em #fcd116,0em 40em 0em 0em #006b3f;
+}
+.star-five {
+   top:5em;
+  left:25em;
+   position: relative;
+   width: 0em;
+   height: 0em;
+   border-right:  10em solid transparent;
+   border-bottom: 7em  solid black;
+   border-left:   10em solid transparent;
+   transform:    rotate(35deg);
+   font-size:1.2em;
+}
+.star-five:before {
+   border-bottom: 8em solid black;
+   border-left: 3em solid transparent;
+   border-right: 3em solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -4em;
+   left: -6em;
+   content: '';
+   transform: rotate(-35deg);
+   
+}
+.star-five:after {
+   position: absolute;
+   color: black;
+   top: 0.3em;
+   left: -10.5em;
+   width: 0em;
+   height: 0em;
+   border-right: 10em solid transparent;
+   border-bottom: 7em solid black;
+   border-left: 10em solid transparent;
+   transform: rotate(-70deg);
+   content: '';
+}

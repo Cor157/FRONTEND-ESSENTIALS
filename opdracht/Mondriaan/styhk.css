@@ -1,0 +1,255 @@
+div{
+    /* Zorgt ervoor dat de border aan de binnenkant van alle divs wordt geplaats en niet wordt opgeteld bij de breedte/hoogte van het element*/
+    /* hierdoor voorkom je dat je als je het element een bepaalde breedte/hoogte geeft rekening moet houden met de border breedte */
+    box-sizing: border-box;
+    /* voorkomt dat elementen die als display waarde inline-block hebben een kleine ruimte tussen de elementen tonen */
+    font-size: 0px;
+}
+ 
+/* Container div waar de hele mondriaan in zit */
+#container{
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+}
+ 
+/* CSS class voor achtergrond die niet zichtbaar is voor het eindresultaat */
+.bg-temp{
+    background-image: repeating-linear-gradient(-45deg grey, grey);
+}
+ 
+.horizontaal{
+    display: inline-block;
+}
+ 
+/* CSS classes die de borders regelen */
+.border-boven{
+    border-top: 15px solid black;
+}
+ 
+.border-links{
+    border-left: 15px solid black;
+}
+ 
+.border-rechts{
+    border-right: 15px solid black;
+}
+ 
+.border-beneden{
+    border-bottom: 15px solid black;
+}
+ 
+/* CSS Classes die de achtergrond kleur regelen */
+.bg-geel{
+    background-color: yellow;
+}
+ 
+.bg-blauw{
+    background-color: cornflowerblue;
+}
+ 
+.bg-rood{
+    background-color: red;
+}
+ 
+.bg-wit{
+    background-color: white;
+}
+ 
+/* Linkerkant */
+#links{
+    width: 20%;
+    height: 100%;
+}
+ 
+#links-boven{
+    width: 100%;
+    height: 25%;
+}
+#links-midden{
+    width: 100%;
+    height: 50%;
+}
+#links-beneden{
+    width: 100%;
+    height: 25%;
+}
+ 
+ /* Rechterkant */
+#rechts{
+    width: 80%;
+    height: 100%;
+}
+ 
+/* Rechtskant eerste rij */
+#rechts-rij-een{
+    height: 25%;
+    width: 100%;
+}
+ 
+    #rechts-rij-een-links{
+        height: 100%;
+        width: 60%;
+    }
+ 
+    #rechts-rij-een-rechts{
+        height: 100%;
+        width: 40%;
+    }
+ 
+/* Rechtskant tweede rij */
+#rechts-rij-twee{
+    height: 22%;
+    width: 100%;
+}
+ 
+/* Rechtskant derde rij */
+#rechts-rij-drie{
+    height: 22%;
+    width: 100%;
+}
+ 
+/* Rechtskant vierde rij */
+#rechts-rij-vier{
+    height: 31%;
+    width: 50%;
+    background-color: red;
+
+}
+
+#rechts-onder{
+    height: 9%;
+    width: 20%;
+    background-color: red;
+    margin-top: -71px;
+    margin-left: 511px;
+    margin-right: 90px;
+}
+#zwartlijn1{
+    height: 75%;
+    width: 3%;
+    background-color:black;
+    margin-top: -598px;
+    margin-left: 495px;
+    margin-right: 90px;
+}
+#zwartlijn2{
+    height: 2%;
+    width: 20%;
+    background-color:black;
+    margin-top: -88px;
+    margin-left: 512px;
+    margin-right: 90px;
+}
+#zwartlijn3{
+    height: 2%;
+    width: 125%;
+    background-color:black;
+    margin-top: -529px;
+    margin-left: -159px;
+    margin-right: 90px;
+}
+#zwartlijn4{
+    height: 2%;
+    width: 102%;
+    background-color:black;
+    margin-top: 321px;
+    margin-left: -12px;
+    margin-right: 90px;
+}
+#geelbovenrood{
+    height: 20%;
+    width: 20%;
+    background-color:yellow;
+    margin-top: 0px;
+    margin-left: 513px;
+    margin-right: 90px;
+}
+#zwartlijn5{
+    height: 31%;
+    width: 3%;
+    background-color:black;
+    margin-top: -160px;
+    margin-left: 318px;
+    margin-right: 90px;
+}
+#zwartlijn6{
+    height: 16%;
+    width: 3%;
+    background-color:black;
+    margin-top: -390px;
+    margin-left: 318px;
+    margin-right: 90px;
+}
+#zwartlijn7{
+    height: 2%;
+    width: 101%;
+    background-color:black;
+    margin-top: -140px;
+    margin-left: -6px;
+    margin-right: 90px;
+}
+#zwartlijn8{
+    height: 16%;
+    width: 3%;
+    background-color:black;
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 90px;
+}
+#zwartlijn9{
+    height: 26%;
+    width: 3%;
+    background-color:black;
+    margin-top: -540px;
+    margin-left: 400px;
+    margin-right: 90px;
+}
+#Geeleerste{
+    height: 16%;
+    width: 25%;
+    background-color:	cornflowerblue;
+    margin-top: 205px;
+    margin-left: 335px;
+    margin-right: 90px;
+}
+#Roodderde{
+    height: 16%;
+    width: 20%;
+    background-color:	red;
+    margin-top: -130px;
+    margin-left: 513px;
+    margin-right: 90px;
+}
+#Geelderde{
+    height: 16%;
+    width: 38%;
+    background-color:	yellow;
+    margin-top: -126px;
+    margin-left: 76px;
+    margin-right: 90px;
+}
+#Blauwderde{
+    height: 16%;
+    width: 10%;
+    background-color:	cornflowerblue;
+    margin-top: -128px;
+    margin-left: 0px;
+    margin-right: 90px;
+}
+#Roodvierde{
+    height: 25%;
+    width: 63%;
+    background-color:	red;
+    margin-top: -538px;
+    margin-left: 0px;
+    margin-right: 90px;
+}
+#Blauwvierde{
+    height: 25%;
+    width: 35%;
+    background-color:	cornflowerblue;
+    margin-top: -200px;
+    margin-left: 418px;
+    margin-right: 90px;
+}

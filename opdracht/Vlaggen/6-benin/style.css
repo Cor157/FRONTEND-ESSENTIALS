@@ -1,0 +1,37 @@
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+/* Hieronder kun je gaan editen */
+
+#Links{
+    width: 300px;
+    height: 600px;
+    left: 298px;
+    background-color: green;
+}
+#rechtsboven{
+    background-color: yellow;
+    width: 600px;
+    height: 600px;
+    margin: 30px;
+    margin-right: 40px;
+    margin-left: 300px;
+    margin-top: -600px;
+}
+#Rechtsonder{
+    background-color:red;
+    width: 600px;
+    height: 300px;
+    margin: 30px;
+    margin-right: 40px;
+    margin-left: 300px;
+    margin-top: -330px;
+}

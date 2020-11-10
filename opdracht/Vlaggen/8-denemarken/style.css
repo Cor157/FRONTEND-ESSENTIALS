@@ -1,0 +1,38 @@
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+
+
+#bovenkant{
+    width: 900px;
+    height: 600px;
+    left: 298px;
+    background-color: red;
+}
+#onderkant{
+    background-color:white ;
+    width: 900px;
+    height: 100px;
+    margin: 30px;
+    margin-right: 90px;
+    margin-left: 0px;
+    margin-top: -400px;
+}
+#middenkant{
+    background-color: white;
+    width: 100px;
+    height: 600px;
+    margin: 30px;
+    margin-right: 40px;
+    margin-left: 300px;
+    margin-top: -600px;
+}
+

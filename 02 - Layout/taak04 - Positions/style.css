@@ -1,0 +1,34 @@
+.children{
+    padding: 5px;
+}
+
+.parent{
+    background-color: blue;
+}
+
+#child-1{
+    background-color: greenyellow;
+}
+
+#child-2{
+    background-color: orangered;
+    position: absolute;
+    bottom: 351px;
+    left: 8px;
+}
+
+
+
+#child-3{
+    background-color: slateblue;
+    position: absolute;
+    bottom:0;
+    left:8;
+}
+
+#child-3{
+    background-color: slateblue;
+    position: fixed;
+    bottom:0;
+    left:0;
+}

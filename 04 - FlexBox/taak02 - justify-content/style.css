@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    border: 5px solid;
+    flex-direction: row;
+    justify-content: space-between;
+    color: yellow;
+    background-color: tomato;
+    list-style: none;
+    height: 30px;
+ 
+}

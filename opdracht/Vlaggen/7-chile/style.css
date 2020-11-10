@@ -1,0 +1,52 @@
+*{
+    font-size:0;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+
+
+#Links{
+    width: 300px;
+    height: 600px;
+    left: 298px;
+    background-color: blue;
+        content: "★";
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        
+      
+}
+
+
+#top{
+    margin-top: -630px;
+    
+   
+}
+ 
+ 
+#rechtsboven{
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    margin: 30px;
+    margin-right: 40px;
+    margin-left: 300px;
+    margin-top: -600px;
+}
+#Rechtsonder{
+    background-color:red;
+    width: 900px;
+    height: 300px;
+    margin: 30px;
+    margin-right: 40px;
+    margin-left: 0px;
+    margin-top: -330px;
+}

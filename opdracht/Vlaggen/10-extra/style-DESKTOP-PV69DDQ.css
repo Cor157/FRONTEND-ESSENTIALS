@@ -1,0 +1,21 @@
+body {
+  background-color: #C6A49C;
+  height: -10000000000%;
+}
+.japan-flag {
+  background-color: white;
+  position: relative;    
+	top: 30%;
+  padding: 20%;
+  width: 190px;
+}
+.japan-flag:before {
+  content: "";
+  width: 48%;
+  height: 58%;
+  position: absolute;
+  background-color: #970C2C ;
+  top: 20%;
+  left: 25%;
+  border-radius: 50%;
+}
